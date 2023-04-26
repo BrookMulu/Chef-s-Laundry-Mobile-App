@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+
+    <TextView
+        android:id="@+id/TitleGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chef's" />
+    <!-- Button centering in screen -->
+    <Button
+        android:id="@+id/PlayGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleGame"
+        android:layout_gravity="center"
+        android:text="PLay Game" />
+
+    <Button
+        android:id="@+id/HighScores"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PlayGame"
+        android:layout_centerHorizontal="true"
+        android:text="High Scores" />
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HighScores"
+        android:layout_centerHorizontal="true"
+        android:text="Settings" />
+
+</LinearLayout>
